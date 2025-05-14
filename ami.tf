@@ -1,4 +1,4 @@
-# Definition of ami ver dev 
+# Definition of ami ver dev
 data "aws_ami" "windows-2022" {
   most_recent = true
   owners      = ["amazon"]
